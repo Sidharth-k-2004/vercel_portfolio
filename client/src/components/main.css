@@ -1,0 +1,81 @@
+.main-page {
+    /* background-image: url('x.png'); */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+    width: 100%;
+  }
+  
+  .container {
+    text-align: center;
+    width: 40%;
+    height: fit-content;
+  }
+  
+  .welcome-text {
+    /* font-family: 'Sofia', sans-serif; */
+    font-family: cursive;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+  }
+  .aboutme {
+    font-family: 'Sofia', sans-serif;
+    color: rgb(209, 209, 209);
+  }
+  
+  .important-section {
+    font-family: 'Sofia', sans-serif;
+    margin-top: 2rem;
+    font-size: 3.5rem;
+    color: white;
+  }
+  
+  .typing-text {
+    display: inline-block;
+    margin-top: 0.5rem;
+  }
+  
+  .cursor {
+    display: inline-block;
+    margin-top: 0.5rem;
+    animation: blink 2s infinite;
+  }
+  .header-image-section{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .header-image-section img {
+    width: 50%; /* Adjust the width as needed */
+    max-width: 900px; /* Ensure the image doesn't get too large */
+    /* height: auto;  */
+  }
+  
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .download-button{
+    font-family: cursive;
+    font-size:1.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:white;
+    text-decoration: none;
+    margin-top: 30px;
+
+  }
+  
