@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './main.css'; // Ensure this CSS file includes styles for background, text, etc.
 import head from '../screens/header-img.svg'; // Adjust path as necessary
-import resumePdf from '../screens/Resume_sidharth.pdf';
 const MainPage = () => {
   const [textIndex, setTextIndex] = useState(0);
   const [currentText, setCurrentText] = useState('');
@@ -46,7 +45,6 @@ const MainPage = () => {
           Dedicated to crafting innovative solutions through code,
           with a keen eye for detail and a relentless drive for excellence."
         </div>
-        <a className="download-button" href={resumePdf} download>Download Resume</a>
       </div>
       <div className='header-image-section'>
         <img src={head} alt="Header illustration" />

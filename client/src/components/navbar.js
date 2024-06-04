@@ -4,7 +4,7 @@ import './navbar.css';
 import linkedinIcon from '../screens/linkenin-icon.jpg';
 import instagramIcon from '../screens/instagram-icon.jpg';
 import { Link } from 'react-router-dom';
-
+import resumePdf from '../screens/Resume_sidharth.pdf';
 const NavBar = () => {
   const [scrolled, setScrolled] = useState(false);
 
@@ -52,7 +52,7 @@ const NavBar = () => {
       <header className={`navbar ${scrolled ? 'scrolled' : ''}`}>
         <div className="navbar-container">
           <div className="logo">
-            {/* <img src={logo} alt="Logo" /> */}
+          <a className="download-button" href={resumePdf} download>Resume</a>
               
           </div>
           <nav className="nav-links">

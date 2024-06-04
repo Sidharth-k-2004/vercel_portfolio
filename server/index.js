@@ -52,6 +52,6 @@ app.post('/connect', (req, res) => {
 });
 
 app.listen(port, () => {
-  // console.log(`Server running on port ${port}`);
-  <div>server running</div>
+  console.log(`Server running on port ${port}`);
+  
 });
