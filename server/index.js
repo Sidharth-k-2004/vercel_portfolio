@@ -1,4 +1,4 @@
-// index.js
+
 const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
@@ -7,8 +7,12 @@ const dotenv=require('dotenv');
 dotenv.config();
 const app = express();
 const port = 5000;
+const corsOptions = {
+  origin: 'https://vercel-portfolio-client-side.vercel.app',
+  optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
+};
 
-app.use(cors());
+app.use(cors(corsOptions));
 app.use(bodyParser.json());
 console.log('SMTP_HOST:', process.env.SMTP_HOST);
 console.log('SMTP_PORT:', process.env.SMTP_PORT);

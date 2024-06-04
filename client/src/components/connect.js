@@ -1,30 +1,4 @@
-// import React from 'react';
-// import './connect.css';
-// import connectImage from '../screens/contact-img.svg';
-// const GetInTouch = () => {
-//   return (
-//     <div className="background-container">
-//       <div className="image-section">
-//         <img src={connectImage} alt="connectimage" />
-//       </div>
-//       <div className="contact-container">
-//         <h1>Get In Touch</h1>
-//         <form>
-//           <div className="input-row">
-//             <input type="text" className="input input-half" placeholder="First Name" required />
-//             <input type="text" className="input input-half" placeholder="Last Name" required />
-//           </div>
-//           <input type="email" className="input" placeholder="Email" required />
-//           <input type="tel" className="input" placeholder="Phone Number" required />
-//           <textarea className="textarea" placeholder="Your Message" required></textarea>
-//           <button type="submit" className="send-button">Send</button>
-//         </form>
-//       </div>
-//     </div>
-//   );
-// };
 
-// export default GetInTouch;
 
 import React, { useState } from 'react';
 import './connect.css';
@@ -48,7 +22,7 @@ const GetInTouch = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:5000/connect', formData);
+      const response = await axios.post('https://vercel-portfolio-server.vercel.app/connect', formData);
       console.log('Email sent successfully!', response.data);
       alert('Message sent successfully');
     } catch (error) {
