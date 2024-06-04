@@ -22,7 +22,7 @@ const GetInTouch = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('https://vercel-portfolio-server.vercel.app/connect', formData);
+      const response = await axios.post('https://vercel-portfolio-server-3v1k1uzcz-sidharth-ks-projects.vercel.app/connect', formData);
       console.log('Email sent successfully!', response.data);
       alert('Message sent successfully');
     } catch (error) {
