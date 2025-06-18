@@ -4,7 +4,8 @@ import './navbar.css';
 import linkedinIcon from '../screens/linkenin-icon.jpg';
 import instagramIcon from '../screens/instagram-icon.jpg';
 import { Link } from 'react-router-dom';
-import resumePdf from '../screens/RESUME.pdf';
+import resumePdf from '../screens/SidharthResume.pdf';
+
 const NavBar = () => {
   const [scrolled, setScrolled] = useState(false);
 

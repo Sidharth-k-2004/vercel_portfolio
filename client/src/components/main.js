@@ -10,7 +10,7 @@ const MainPage = () => {
   const pauseTime = 2000; // Pause before starting to delete or type the next text
 
   useEffect(() => {
-    const texts = ["machine learning enthusiast", "web developer"]; // Move texts array inside useEffect
+    const texts = [ "Full Stack Developer","Machine Learning Enthusiast"]; // Move texts array inside useEffect
 
     const handleTyping = () => {
       const currentFullText = texts[textIndex];
