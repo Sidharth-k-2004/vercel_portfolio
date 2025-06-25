@@ -15,6 +15,7 @@ import emotune_homepage from '../screens/emotune_homepage.png'
 import tradewise from '../screens/TradeWise.png'
 import MentorMap from '../screens/MentorMap.png'
 import VocalResume from '../screens/VocalResume.png'
+import UdemyML from '../screens/udemy-ml-certificate.pdf'
 // import './certificate.css'; 
 
 // pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
@@ -48,7 +49,9 @@ const Projects = () => {
     Certificates: [
       
       { url: certificate1, name:'HackerRank intermediate certification' },
-      { url: certificate2, name: 'python and machine learning' }
+      { url: certificate2, name: 'python and machine learning' },
+      { url: UdemyML, name: 'Machine learning certification' }
+
       
     ],
   };

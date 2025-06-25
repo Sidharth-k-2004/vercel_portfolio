@@ -3,6 +3,7 @@ import { Document, Page } from 'react-pdf';
 import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
 import resumePDF from '../screens/Resume_sidharth.pdf'; // Replace with your PDF file paths
 import certificatePDF from '../screens/certificate1.pdf'; // Replace with your PDF file paths
+import Udemy from '../screens/udemy-ml-certificate.pdf'
 import './certificate.css'; 
 
 const PDFViewer = () => {
