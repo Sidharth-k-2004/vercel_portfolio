@@ -15,7 +15,8 @@ import emotune_homepage from '../screens/emotune_homepage.png'
 import tradewise from '../screens/TradeWise.png'
 import MentorMap from '../screens/MentorMap.png'
 import VocalResume from '../screens/VocalResume.png'
-import UdemyML from '../screens/udemy-ml-certificate.pdf'
+import UdemyML from '../screens/udemy_ml_certificate.jpg'
+
 // import './certificate.css'; 
 
 // pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
